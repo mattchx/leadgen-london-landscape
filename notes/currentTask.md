@@ -13,4 +13,4 @@ The form section has been updated to include:
 - Maintained existing Submit-Form.com integration
 
 ### Next Steps
-Task completed. The form now properly reflects the landscaping business focus with improved user experience and clear call-to-action. The headlines in the quote request form have been adjusted for better visual hierarchy, and a gradient background has been added to the section.
+Task completed. The form now properly reflects the landscaping business focus with improved user experience and clear call-to-action. The headlines in the quote request form have been adjusted for better visual hierarchy, a gradient background has been added to the section, the secondary headline has been softened, and the "Get Your Free Quote" button text has been changed to "Request Your Quote".
