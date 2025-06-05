@@ -31,4 +31,4 @@ Add a new CTA section after the Services section to capture user interest when i
 - Responsive design maintaining mobile-first approach
 
 ### Next Steps
-Task completed. The new CTA section has been added after the Services section in `index.html` with both "Call Now" and "Request a Quote via Form" buttons, clearly differentiated.
+Task completed. The "5 Tips for a Beautiful Lawn" section has been replaced with a single hero image in `index.html`.

@@ -8,7 +8,7 @@
     -   **Services Section**: Details the landscaping services offered.
     -   **New CTA Section (after Services)**: Provides dual call-to-action options (phone call and form submission) for free quotes.
     -   **Testimonials Section**: Showcases customer reviews.
-    -   **Blog Section**: Features a video and text-based tips.
+    -   **Image Section**: Displays a large, visually appealing image.
     -   **Quote Request Form**: A form for users to request a free quote.
     -   **Contact Section**: Additional contact information and CTAs.
     -   **Footer**: Contains copyright, contact info, and quick links.
@@ -21,7 +21,6 @@
 ### External Dependencies
 -   **Tailwind CSS CDN**: `https://cdn.tailwindcss.com`
 -   **Google Fonts**: (Not currently used, but a common dependency for similar projects)
--   **YouTube Embed**: For the video in the blog section.
 -   **Submit-Form.com**: External service for form handling.
 
 ### Recent Significant Changes

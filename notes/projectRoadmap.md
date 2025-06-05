@@ -14,6 +14,7 @@
 ### Progress Tracker
 - [x] Move image section below the Main call for action.
 - [x] Change "Get Your Free Quote" button text to "Request Your Quote".
+- [x] Replace the "5 Tips for a Beautiful Lawn" section with a single hero image.
 
 ### Completed Tasks
 - [x] Make the headline "Transform Your Outdoor Space Today!" stand out better and "Get Your Quote in 24 Hours ⚡" stand out less.
