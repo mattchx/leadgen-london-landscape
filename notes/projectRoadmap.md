@@ -15,3 +15,5 @@
 - [x] Move image section below the Main call for action.
 
 ### Completed Tasks
+- [x] Make the headline "Transform Your Outdoor Space Today!" stand out better and "Get Your Quote in 24 Hours ⚡" stand out less.
+- [x] Add a darker to lighter green gradient to the quote request form section.
