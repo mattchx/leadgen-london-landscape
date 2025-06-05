@@ -1,16 +1,34 @@
 ## Current Task
 
 ### Objective
-Update the form section to focus on landscaping services with improved UI and more intuitive placeholders.
+Add a new CTA section after the Services section to capture user interest when it's highest.
 
 ### Context
-The form section has been updated to include:
-- New landscaping-focused headlines and copy
-- Intuitive placeholder text (e.g., "Your Name Here...")
-- Project details field for capturing specific landscaping needs
-- Professional UI elements with landscaping service focus
-- 24-hour quote turnaround promise
-- Maintained existing Submit-Form.com integration
+- Currently have CTAs in:
+  - Hero section (Call Now button)
+  - About section ("Get a Free Quote" button)
+  - Main quote form section ("Request Your Free Quote" button)
+  - Footer ("Get Quote" link)
+- New CTA will be placed strategically after Services section
+- Will maintain consistent design language with existing CTAs
+
+### Implementation Plan
+1. Create new section after Services section with:
+   - Gradient background (from-nature-green to-leaf-green)
+   - Compelling headline focused on taking action
+   - Brief supporting text
+   - Two prominent CTA buttons: one for phone call, one for form submission
+   - Visual separation from surrounding sections
+
+### Design Specifications
+- Background: Gradient from nature-green to leaf-green (consistent with quote form section)
+- Text: White for good contrast
+- Buttons:
+   - Phone CTA: White background with nature-green text (inverse of hero section button)
+   - Form CTA: Nature-green background with white text (matching theme)
+- Layout: Flex container for side-by-side on desktop, stacked on mobile
+- Spacing: py-12 for good vertical rhythm
+- Responsive design maintaining mobile-first approach
 
 ### Next Steps
-Task completed. The form now properly reflects the landscaping business focus with improved user experience and clear call-to-action. The headlines in the quote request form have been adjusted for better visual hierarchy, a gradient background has been added to the section, the secondary headline has been softened, and the "Get Your Free Quote" button text has been changed to "Request Your Quote".
+Task completed. The new CTA section has been added after the Services section in `index.html` with both "Call Now" and "Request a Quote via Form" buttons, clearly differentiated.
