@@ -43,19 +43,14 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-nature-green to-leaf-green text-white py-12">
+    <section class="bg-white text-gray-800 py-12">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-8">
-                <div class="text-center md:text-left md:w-1/2">
-                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Trusted Landscaping Services in London, ON</h1>
-                    <p class="text-xl md:text-2xl mb-8">Connect with top local professionals for lawn care, tree removal, and more. Get your free quote today!</p>
-                    <a href="tel:+12264078168" class="bg-white text-nature-green px-8 py-4 rounded-lg text-xl font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg">
-                        📞 Call Now: (226) 407-8168
-                    </a>
-                </div>
-                <div class="md:w-1/2">
-                    <img src="images/landscape-hero-2.webp" alt="Beautiful landscaping in London, Ontario" class="w-full rounded-lg shadow-xl">
-                </div>
+            <div class="flex flex-col items-center justify-center text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 text-nature-green">Trusted Landscaping Services in London, ON</h1>
+                <p class="text-xl md:text-2xl mb-8 text-gray-700">Connect with top local professionals for lawn care, tree removal, and more. Get your free quote today!</p>
+                <a href="tel:+12264078168" class="bg-nature-green text-white px-8 py-4 rounded-lg text-xl font-semibold hover:brightness-110 transition-all inline-block shadow-lg">
+                    📞 Call Now: (226) 407-8168
+                </a>
             </div>
         </div>
     </section>
@@ -63,6 +58,10 @@
     <!-- About Section -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
+            <!-- House Image moved from Image Section -->
+            <div class="container mx-auto px-4 mb-12">
+                <img src="images/landscape-hero.jpg" alt="Beautifully manicured lawn and garden" class="w-full rounded-lg shadow-lg">
+            </div>
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-3xl md:text-4xl font-bold text-nature-green mb-8">Why Choose London Landscaping Pros?</h2>
                 <p class="text-lg text-gray-700 mb-8 leading-relaxed">
@@ -117,15 +116,18 @@
     </section>
 
     <!-- Call to Action Section after Services -->
-    <section class="py-16 bg-gradient-to-r from-nature-green to-leaf-green text-white text-center">
-        <div class="container mx-auto px-4">
+    <section class="py-16 text-white text-center relative" style="background-image: url('images/landscape-hero-2.webp'); background-size: cover; background-position: center;">
+        <!-- Dark overlay -->
+        <div class="absolute inset-0 bg-nature-green/70"></div>
+        <!-- Content with z-index to appear above overlay -->
+        <div class="container mx-auto px-4 relative z-10">
             <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Landscape?</h2>
             <p class="text-lg md:text-xl mb-8">Get a free, no-obligation quote for your landscaping project today!</p>
             <div class="flex flex-col md:flex-row justify-center items-center gap-4">
                 <a href="tel:+12264078168" class="bg-white text-nature-green px-8 py-4 rounded-lg text-xl font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg">
                     📞 Call Now: (226) 407-8168
                 </a>
-                <a href="#quote-form" class="bg-nature-green text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-leaf-green transition-colors inline-block shadow-lg">
+                <a href="#quote-form" class="bg-nature-green text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-leaf-green transition-colors inline-block shadow-lg border-2 border-white">
                     📝 Request a Quote Online
                 </a>
             </div>
@@ -168,13 +170,6 @@
                     <p class="text-gray-700 italic">"Beautiful garden design that transformed our backyard into an oasis. The hardscaping work was top-notch!"</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Image Section -->
-    <section class="py-16">
-        <div class="container mx-auto px-4">
-            <img src="images/landscape-hero.jpg" alt="Beautifully manicured lawn and garden" class="w-full rounded-lg shadow-lg">
         </div>
     </section>
 

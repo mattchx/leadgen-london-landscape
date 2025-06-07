@@ -1,34 +1,45 @@
 ## Current Task
 
 ### Objective
-Add a new CTA section after the Services section to capture user interest when it's highest.
+Update the layout and visual hierarchy of key sections to improve the user experience and content flow.
 
 ### Context
-- Currently have CTAs in:
-  - Hero section (Call Now button)
-  - About section ("Get a Free Quote" button)
-  - Main quote form section ("Request Your Free Quote" button)
-  - Footer ("Get Quote" link)
-- New CTA will be placed strategically after Services section
-- Will maintain consistent design language with existing CTAs
+- Modified hero section to focus on pure CTA and text without background image
+- Moved house image (`landscape-hero.jpg`) to About section
+- Incorporated original hero image (`landscape-hero-2.webp`) as background in the Call to Action section after Services
+- Improved visual hierarchy and content organization
 
-### Implementation Plan
-1. Create new section after Services section with:
-   - Gradient background (from-nature-green to-leaf-green)
-   - Compelling headline focused on taking action
-   - Brief supporting text
-   - Two prominent CTA buttons: one for phone call, one for form submission
-   - Visual separation from surrounding sections
+### Implementation Details
+1. Hero Section Changes:
+   - Removed gradient background in favor of clean white background
+   - Removed image to focus on CTA and text
+   - Updated text colors for better contrast
+   - Centered content for better focus
+
+2. About Section Updates:
+   - Added house image below the text content
+   - Maintained visual hierarchy with text-first approach
+   - Added proper spacing between text and image
+
+3. Call to Action Section Updates:
+   - Added hero image as background with overlay
+   - Improved button contrast and visibility
+   - Added border to "Request a Quote" button
+   - Ensured text readability with semi-transparent overlay
 
 ### Design Specifications
-- Background: Gradient from nature-green to leaf-green (consistent with quote form section)
-- Text: White for good contrast
-- Buttons:
-   - Phone CTA: White background with nature-green text (inverse of hero section button)
-   - Form CTA: Nature-green background with white text (matching theme)
-- Layout: Flex container for side-by-side on desktop, stacked on mobile
-- Spacing: py-12 for good vertical rhythm
-- Responsive design maintaining mobile-first approach
+- Hero Section:
+  - White background
+  - Nature-green text for heading
+  - Gray text for description
+  - Nature-green background for CTA button
+- About Section:
+  - Integrated image with py-8 spacing
+  - Maintained existing text styling
+- CTA Section:
+  - Background image with 70% nature-green overlay
+  - White text for good contrast
+  - Dual CTA buttons with clear visual hierarchy
 
 ### Next Steps
-Task completed. The "Request Your Free Quote" button in the second section has been updated to stand out more, and images/image placeholders have been added to the Services section cards and testimonials in `index.html`.
+Task completed. The layout has been updated to improve visual hierarchy and content flow. All images have been properly integrated into their new positions.
